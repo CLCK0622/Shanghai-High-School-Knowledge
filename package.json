@@ -22,7 +22,14 @@
     "nextra": "2.0.1",
     "nextra-theme-docs": "2.0.1",
     "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react-dom": "^18.2.0",
+    "rehype-mathjax": "^4.0.2",
+    "rehype-stringify": "^9.0.3",
+    "remark-math": "^5.1.1",
+    "remark-parse": "^10.0.1",
+    "remark-rehype": "^10.1.0",
+    "to-vfile": "^7.2.3",
+    "unified": "^10.1.2"
   },
   "devDependencies": {
     "@types/node": "18.11.10",

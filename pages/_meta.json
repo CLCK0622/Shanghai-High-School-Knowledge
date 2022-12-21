@@ -1,15 +1,10 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
-  "about": {
-    "title": "About",
-    "type": "page"
-  },
+  "index": "首页",
+  "10A": "高一上学期/必修一", 
   "contact": {
     "title": "Contact ↗",
     "type": "page",
-    "href": "https://twitter.com/shuding_",
+    "href": "https://t.me/CLCK0622",
     "newWindow": true
   }
 }
