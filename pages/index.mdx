@@ -33,9 +33,30 @@ npm run dev
 
 示例：
 
+行内：$Hello, World! $
+
+块：
+
 $$
-1b
+Hello, World! 
 $$
+
+注意：对于公式渲染支持，请按如下格式编写。
+
+```
+行内：$ Hello, World! $
+
+块：
+$$
+Hello, World! 
+$$
+```
+
+同时，你可以使用 `\ce{}` 编写化学公式，使用 `\text{}` 书写一般正体。
+
+例如：$\ce{2Na+Cl_2 ->T[点燃] 2NaCl}$ 及 $\text{Hello, World! }$
+
+（如你所见，会有行高的对齐问题，因此建议使用单行公式编写化学公式）
 
 ## Nextra 文档
 
