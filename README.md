@@ -1,23 +1,63 @@
-# Nextra Docs Template 
+# [首页](https://knowledge.clckblog.space/)
 
-This is a template for creating documentation with [Nextra](https://nextra.site).
+本仓库旨在收集和整理以上海高中标准课本为大纲的各学科基础知识，为想要对知识有提纲挈领的了解的人提供极为优秀的机会。
 
-[**Live Demo →**](https://nextra-docs-template.vercel.app)
+## 规范
 
-[![](.github/screenshot.png)](https://nextra-docs-template.vercel.app)
+对于一般的中文文案排版，遵循 [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) 的方案。
 
-## Quick Start
+## 编辑
 
-Click the button to clone this repository and deploy it on Vercel:
+你不需要配置开发环境，可以直接编辑 [MDX](https://mdxjs.com/) 文件，它支持所有 Markdown 语法，还添加了 JSX 支持。
 
-[![](https://vercel.com/button)](https://vercel.com/new/clone?s=https%3A%2F%2Fgithub.com%2Fshuding%2Fnextra-docs-template&showOptionalTeamCreation=false)
+本站基于 [Nextra](https://nextra.site/)，你也可以调用其附带的 JSX 组件。
 
-## Local Development
+## 开发
 
-First, run `pnpm i` to install the dependencies.
+### 安装依赖
 
-Then, run `pnpm dev` to start the development server and visit localhost:3000.
+```sh
+npm install
+npm i next@latest react@latest react-dom@latest eslint-config-next@latest
+```
 
-## License
+### 启动开发服务器
 
-This project is licensed under the MIT License.
+```sh
+npm run dev
+```
+
+## MathJax 支持
+
+已经配置完毕。
+
+示例：
+
+行内：$Hello, World! $
+
+块：
+
+$$
+Hello, World! 
+$$
+
+注意：对于公式渲染支持，请按如下格式编写。
+
+```
+行内：$ Hello, World! $
+
+块：
+$$
+Hello, World! 
+$$
+```
+
+同时，你可以使用 `\ce{}` 编写化学公式，使用 `\text{}` 书写一般正体。
+
+例如：$\ce{2Na+Cl_2 ->T[点燃] 2NaCl}$ 及 $\text{Hello, World! }$
+
+（如你所见，会有行高的对齐问题，因此建议使用单行公式编写化学公式）
+
+## Nextra 文档
+
+见 [https://nextra.site](https://nextra.site)。
