@@ -22,7 +22,6 @@ import { Callout } from "nextra-theme-docs";
 
 ```sh
 npm install
-npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
 ### 启动开发服务器
@@ -58,13 +57,13 @@ $$
 
 同时，你可以使用 `\ce{}` 编写化学公式，使用 `\text{}` 书写一般正体。
 
-例如：$\ce{2Na + Cl_2 ->T[点燃] 2NaCl}$ 及 $\text{Hello, World! }$
+例如：$\ce{2Na + Cl_2 \xlongequal{\mbox{点燃}} 2NaCl}$ 及 $\text{Hello, World! }$
 
 （如你所见，会有行高的对齐问题，因此建议使用单行公式编写化学公式）
 
-<Callout>
-    由于该语法不支持新课标中的长等号反应，故反应符号全部用长箭头代替，请在考试时注意替换成等号！
-</Callout>
+$$
+\ce{2Na + Cl_2 \xlongequal{\mbox{点燃}} 2NaCl}
+$$
 
 ## Nextra 文档
 

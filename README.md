@@ -1,6 +1,10 @@
-# [首页](https://knowledge.clckblog.space/)
+import { Callout } from "nextra-theme-docs";
 
-本仓库旨在收集和整理以上海高中标准课本为大纲的各学科基础知识，为想要对知识有提纲挈领的了解的人提供极为优秀的机会。
+# [上海高中课本知识整理](https://knowledge.clckblog.space/)
+
+本网站旨在收集和整理以上海高中标准课本为大纲的各学科基础知识大全，为想要对知识有提纲挈领的了解或进行查漏补缺的人提供极为优秀的机会。
+
+本网站所记内容仅适用于上海地区的课标内容，并只包含了较主流的教材版本。
 
 ## 规范
 
@@ -18,7 +22,6 @@
 
 ```sh
 npm install
-npm i next@latest react@latest react-dom@latest eslint-config-next@latest
 ```
 
 ### 启动开发服务器
@@ -54,9 +57,13 @@ $$
 
 同时，你可以使用 `\ce{}` 编写化学公式，使用 `\text{}` 书写一般正体。
 
-例如：$\ce{2Na+Cl_2 ->T[点燃] 2NaCl}$ 及 $\text{Hello, World! }$
+例如：$\ce{2Na + Cl_2 \xlongequal{\mbox{点燃}} 2NaCl}$ 及 $\text{Hello, World! }$
 
 （如你所见，会有行高的对齐问题，因此建议使用单行公式编写化学公式）
+
+$$
+\ce{2Na + Cl_2 \xlongequal{\mbox{点燃}} 2NaCl}
+$$
 
 ## Nextra 文档
 
