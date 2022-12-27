@@ -1,5 +1,8 @@
 {
   "index": "首页",
+  "---": {
+    "type": "separator"
+  }, 
   "10A": "高一上学期/必修一", 
   "contact": {
     "title": "联系我们 ↗",
