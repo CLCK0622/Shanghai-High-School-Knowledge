@@ -1,4 +1,4 @@
-@import url("https://unpkg.com/lxgw-wenkai-webfont/style.css");
+@import url("https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@1.1.0/style.css");
 
 body {
   font-family: "LXGW WenKai", ui-sans-serif, system-ui, -apple-system,
