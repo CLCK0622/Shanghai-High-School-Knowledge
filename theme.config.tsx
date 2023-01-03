@@ -23,6 +23,12 @@ const config: DocsThemeConfig = {
   footer: {
     text: '由 Kevin Zhong (aka CLCK) 和其他贡献者精心整理 | 自豪地使用 Nextra 生成网站',
   },
+  main: (props) => {
+    return <>
+      {props.children}
+      <div id="waline" />
+    </>
+  }, 
   search: {
     emptyResult: <div className="nx-mt-4 nx-flex nx-justify-center nx-items-center nx-text-gray-500 nx-font-semibold nx-text-s nx-select-none">没有结果</div>,
     loading: '加载中...',
