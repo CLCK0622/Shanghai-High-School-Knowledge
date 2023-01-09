@@ -4,13 +4,13 @@ import { useConfig } from "nextra-theme-docs"
 import { DocsThemeConfig } from "nextra-theme-docs"
 
 const config: DocsThemeConfig = {
-  logo: (<><img src="/pages/favicon.png" /><span>上海高中课本知识整理</span></>),
+  logo: (<><span>上海高中课本知识整理</span></>),
   head: () => {
     const { asPath } = useRouter()
     const { frontMatter, title } = useConfig()
     return <>
       <meta property="og:url" content={`https://knowledge.clckblog.space${asPath}`} />
-      <meta property="og:description" content={frontMatter.description || '由 @CLCK 及其他人一起整理的，以上海市 2022 年高中课标教材为蓝本的高中课本知识库。'} />
+      <meta property="og:description" content={frontMatter.description || '由 @CLCK 及其他人一起整理的，以上海市 2025 届高中课标教材为蓝本的高中课本知识库。'} />
     </>
   },
   project: {
