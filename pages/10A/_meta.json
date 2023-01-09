@@ -1,4 +1,9 @@
 {
+    "*": {
+        "theme": {
+            "typesetting": "article"
+        }
+    }, 
     "Chemistry": "化学", 
     "Geography": "地理", 
     "Physics": "物理"

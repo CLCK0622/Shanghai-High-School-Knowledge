@@ -1,3 +1,8 @@
 {
+    "*": {
+        "theme": {
+            "typesetting": "article"
+        }
+    }, 
     "knowledge": "基础知识索引"
 }

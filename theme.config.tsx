@@ -1,10 +1,10 @@
 import React from 'react'
 import { useRouter } from "next/router"
-import { useConfig } from 'nextra-theme-docs'
-import { DocsThemeConfig } from 'nextra-theme-docs'
+import { useConfig } from "nextra-theme-docs"
+import { DocsThemeConfig } from "nextra-theme-docs"
 
 const config: DocsThemeConfig = {
-  logo: <span>上海高中课本知识整理</span>,
+  logo: (<><img src="/pages/favicon.png" /><span>上海高中课本知识整理</span></>),
   head: () => {
     const { asPath } = useRouter()
     const { frontMatter, title } = useConfig()

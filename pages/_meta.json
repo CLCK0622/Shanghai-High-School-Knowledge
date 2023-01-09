@@ -1,9 +1,17 @@
 {
-  "index": "首页",
-  "---": {
+  "index": {
+    "title": "首页", 
+    "theme": {"typesetting": "article"}
+  },
+  "课本知识整理": {
     "type": "separator"
   }, 
   "10A": "高一上学期/必修一", 
+  "10B": "高一下学期/必修二", 
+  "高考专题": {
+    "type": "separator"
+  }, 
+  "books": "语文名著阅读", 
   "contact": {
     "title": "联系我们 ↗",
     "type": "page",
