@@ -7,6 +7,7 @@
     "triFuncLines": "三角函数及三角函数线", 
     "induction": "诱导公式", 
     "duplication": "多倍/半角公式", 
+    "alluse": "万能置换公式", 
     "sumdif": "和差角公式", 
     "supplementary": "辅助角公式", 
     "sumdif2multi": "和差化积、积化和差公式"
