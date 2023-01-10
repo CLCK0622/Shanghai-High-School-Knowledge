@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="圖層_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 width="1265px" height="865px" viewBox="0 0 1265 865" enable-background="new 0 0 1265 865" xml:space="preserve">
+<g transform="scale(3.7) translate(0, -8)">
+	<g id="g-points">
+		<text transform="matrix(0.2703 0 0 0.2703 88.3245 143.4054)" font-family="'ArialMT'" font-size="59.2">O</text>
+		<text transform="matrix(0.2703 0 0 0.2703 114.3243 123.4054)" font-family="'Arial-ItalicMT'" font-size="59.2">θ</text>
+		<text transform="matrix(0.2703 0 0 0.2703 147.3247 47.4051)" font-family="'ArialMT'" font-size="59.2">A</text>
+		<text transform="matrix(0.2703 0 0 0.2703 144.3243 226.1619)" font-family="'ArialMT'" font-size="59.2">B</text>
+		<text transform="matrix(0.2703 0 0 0.2703 147.3247 125.4055)" font-family="'ArialMT'" font-size="59.2">C</text>
+		<text transform="matrix(0.2703 0 0 0.2703 198.3245 145.4055)" font-family="'ArialMT'" font-size="59.2">D</text>
+		<text transform="matrix(0.2703 0 0 0.2703 330.3246 145.4055)" font-family="'ArialMT'" font-size="59.2">E</text>
+		<text transform="matrix(0.2703 0 0 0.2703 100.3246 25.4055)" font-family="'ArialMT'" font-size="59.2">F</text>
+		<text transform="matrix(0.2703 0 0 0.2703 88.3245 65.4055)" font-family="'ArialMT'" font-size="59.2">G</text>
+		<text transform="matrix(0.2703 0 0 0.2703 105.3246 43.4054)" font-family="'ArialMT'" font-size="59.2">H</text>
+		<text transform="matrix(0.2703 0 0 0.2703 115.3246 85.4055)" font-family="'ArialMT'" font-size="59.2">1</text>
+		<text transform="matrix(0.2703 0 0 0.2703 0.8108 136.9728)" font-family="'ArialMT'" font-size="59.2">K</text>
+		<text transform="matrix(0.2703 0 0 0.2703 98.3245 236.4322)" font-family="'ArialMT'" font-size="59.2">L</text>
+	</g>
+	<g>
+		<g>
+			
+				<line id="line-BC_4_" fill="none" stroke="#C8C8C8" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="64.406" y1="47.405" x2="32.424" y2="47.405"/>
+		</g>
+		<g>
+			
+				<line id="line-BC" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="142.324" y1="213.405" x2="142.324" y2="130.405"/>
+		</g>
+		<g>
+			
+				<circle id="circle-O-HADB" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" cx="103.325" cy="130.405" r="91.7"/>
+			<path id="arc-DA" fill="none" stroke="#000000" stroke-width="3" stroke-miterlimit="8" d="M195.025,130.405
+				c0.003-35.542-20.533-67.884-52.7-83"/>
+			
+				<line id="line-OA-theta" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="130.405" x2="142.324" y2="47.405"/>
+			<g>
+				
+					<line id="line-OB-minus-theta" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="103.325" y1="130.405" x2="142.324" y2="213.405"/>
+			</g>
+			<g>
+				
+					<line id="line-A-dashed" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="142.324" y1="47.405" x2="155.325" y2="19.405"/>
+			</g>
+			<path id="path-angle-theta" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" d="M115.325,130.405
+				c0-4-3-9-7-11"/>
+			<polyline id="polyline-angle-ortho-O" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="
+				93.325,130.405 93.325,120.405 103.325,120.405 			"/>
+			<polyline id="polyline-angle-ortho-G" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="
+				103.325,57.405 113.325,57.405 113.325,47.405 			"/>
+			<polyline id="polyline-angle-ortho-C" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="
+				132.324,130.405 132.324,120.405 142.324,120.405 			"/>
+			<polyline id="polyline-angle-ortho-A" fill="none" stroke="#000000" stroke-width="1.415" stroke-miterlimit="8" points="
+				134.325,43.405 138.325,35.405 145.325,39.405 			"/>
+		</g>
+		
+			<line id="line-AD-crd" fill="none" stroke="#C0C0C0" stroke-width="1.415" stroke-miterlimit="8" x1="142.324" y1="47.405" x2="195.025" y2="130.405"/>
+		
+			<line id="line-GA-cos" fill="none" stroke="#0000FF" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="47.405" x2="142.324" y2="47.405"/>
+		
+			<line id="line-OC-cos" fill="none" stroke="#0000FF" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="130.405" x2="142.324" y2="130.405"/>
+		
+			<line id="line-CD-versin" fill="none" stroke="#008000" stroke-width="1.415" stroke-miterlimit="8" x1="142.324" y1="130.405" x2="195.025" y2="130.405"/>
+		
+			<line id="line-DE-exsec" fill="none" stroke="#FF69B4" stroke-width="1.415" stroke-miterlimit="8" x1="195.025" y1="130.405" x2="321.324" y2="130.405"/>
+		<g id="g-sec-lines">
+			<g>
+				
+					<line id="line-O-yneg" fill="none" stroke="#008B8B" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="103.325" y1="130.405" x2="103.325" y2="170.405"/>
+				
+					<line id="line-E-yneg" fill="none" stroke="#008B8B" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="321.324" y1="130.405" x2="321.324" y2="170.405"/>
+			</g>
+			
+				<line id="line-sec-parallel-OE" fill="none" stroke="#008B8B" stroke-width="1.415" stroke-miterlimit="8" x1="115.325" y1="175.405" x2="308.325" y2="175.405"/>
+			
+				<line id="line-sec-ortho-O" fill="none" stroke="#008B8B" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="170.405" x2="103.325" y2="180.405"/>
+			
+				<line id="line-sec-ortho-E" fill="none" stroke="#008B8B" stroke-width="1.415" stroke-miterlimit="8" x1="321.324" y1="170.405" x2="321.324" y2="180.405"/>
+			<g id="g-sec-arrowheads">
+				<polyline id="polyline-sec-arrowhead-O" fill="#008B8B" points="115.325,170.405 115.325,180.405 103.325,175.405 				"/>
+				<polyline id="polyline-sec-arrowhead-E" fill="#008B8B" points="308.325,170.405 308.325,180.405 321.324,175.405 				"/>
+			</g>
+		</g>
+		
+			<line id="line-CA-sin" fill="none" stroke="#FF0000" stroke-width="1.415" stroke-miterlimit="8" x1="142.324" y1="130.405" x2="142.324" y2="47.405"/>
+		
+			<line id="line-OG-sin" fill="none" stroke="#FF0000" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="130.405" x2="103.325" y2="47.405"/>
+		
+			<line id="line-HG-cvs" fill="none" stroke="#00FFFF" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="47.405" x2="103.325" y2="38.705"/>
+		
+			<line id="line-HF-excsc" fill="none" stroke="#006400" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="38.705" x2="103.325" y2="29.405"/>
+		<g id="g-csc-lines">
+			<g>
+				
+					<line id="line-O-xneg" fill="none" stroke="#FFC0CB" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="103.325" y1="130.405" x2="63.325" y2="130.405"/>
+				
+					<line id="line-F-xneg" fill="none" stroke="#FFC0CB" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="103.325" y1="29.405" x2="63.325" y2="29.405"/>
+			</g>
+			
+				<line id="line-csc-parallel-OF" fill="none" stroke="#FFC0CB" stroke-width="1.415" stroke-miterlimit="8" x1="58.325" y1="118.405" x2="58.325" y2="41.405"/>
+			
+				<line id="line-csc-ortho-O" fill="none" stroke="#FFC0CB" stroke-width="1.415" stroke-miterlimit="8" x1="53.325" y1="130.405" x2="63.325" y2="130.405"/>
+			
+				<line id="line-csc-ortho-F" fill="none" stroke="#FFC0CB" stroke-width="1.415" stroke-miterlimit="8" x1="53.325" y1="29.405" x2="63.325" y2="29.405"/>
+			<g id="g-csc-arrowheads">
+				<polyline id="polyline-csc-arrowhead-O" fill="#FFC0CB" points="53.325,118.405 63.325,118.405 58.325,130.405 				"/>
+				<polyline id="polyline-csc-arrowhead-E" fill="#FFC0CB" points="53.325,41.405 63.325,41.405 58.325,29.405 				"/>
+			</g>
+		</g>
+		
+			<line id="line-FA-cot" fill="none" stroke="#FF8C00" stroke-width="1.415" stroke-miterlimit="8" x1="103.325" y1="29.405" x2="142.324" y2="47.405"/>
+		
+			<line id="line-AE-tan" fill="none" stroke="#D2B48C" stroke-width="1.415" stroke-miterlimit="8" x1="142.324" y1="47.405" x2="321.324" y2="130.405"/>
+		<g>
+			
+				<line id="line-BC_1_" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="11.625" y1="171.905" x2="11.625" y2="130.405"/>
+		</g>
+		<g>
+			
+				<line id="line-BC_2_" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="3,4" x1="103.325" y1="222.105" x2="31.162" y2="222.105"/>
+		</g>
+		<g>
+			
+				<line id="line-BC_3_" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="103.325" y1="47.405" x2="64.406" y2="47.405"/>
+		</g>
+		
+			<line id="line-csc-parallel-OF_1_" fill="none" stroke="#B200DF" stroke-width="1.415" stroke-miterlimit="8" x1="43.595" y1="222.105" x2="43.595" y2="59.405"/>
+		<g id="g-csc-arrowheads_1_">
+			<polyline id="polyline-csc-arrowhead-O_1_" fill="#B200DF" points="38.595,210.105 48.595,210.105 43.595,222.105 			"/>
+			<polyline id="polyline-csc-arrowhead-E_1_" fill="#B200DF" points="38.595,59.405 48.595,59.405 43.595,47.405 			"/>
+		</g>
+		
+			<line id="line-sec-parallel-OE_1_" fill="none" stroke="#4AACFF" stroke-width="1.415" stroke-miterlimit="8" x1="23.624" y1="156.155" x2="142.324" y2="156.155"/>
+		<g id="g-sec-arrowheads_1_">
+			<polyline id="polyline-sec-arrowhead-O_1_" fill="#4AACFF" points="23.624,151.155 23.624,161.155 11.625,156.155 			"/>
+			<polyline id="polyline-sec-arrowhead-E_1_" fill="#4AACFF" points="129.325,151.155 129.325,161.155 142.324,156.155 			"/>
+		</g>
+		<g>
+			
+				<line id="line-BC_5_" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="53.325" y1="130.405" x2="11.624" y2="130.405"/>
+		</g>
+		<g>
+			
+				<line id="line-BC_6_" fill="none" stroke="#808080" stroke-width="1.415" stroke-miterlimit="8" stroke-dasharray="8,3" x1="103.325" y1="180.405" x2="103.325" y2="222.103"/>
+		</g>
+	</g>
+	<g>
+		<text transform="matrix(0.2703 0 0 0.2703 144.3243 93.4054)" fill="#FF0000" font-family="'ArialMT'" font-size="51.8">sin</text>
+		<text transform="matrix(0.2703 0 0 0.2703 62.1352 46.5945)" fill="#00FFFF" font-family="'ArialMT'" font-size="34">coversin</text>
+		<text transform="matrix(0.2703 0 0 0.2703 61.3244 38.4054)" fill="#006400" font-family="'ArialMT'" font-size="51.8">excsc</text>
+		<text transform="matrix(0.2703 0 0 0.2703 61.3244 81.4053)" fill="#FFC0CB" font-family="'ArialMT'" font-size="51.8">csc</text>
+		<text transform="matrix(0.2703 0 0 0.2703 114.3243 143.4054)" fill="#0000FF" font-family="'ArialMT'" font-size="51.8">cos</text>
+		<text transform="matrix(0.2703 0 0 0.2703 147.3247 143.4054)" fill="#008000" font-family="'ArialMT'" font-size="51.8">versin</text>
+		<text transform="matrix(0.2703 0 0 0.2703 239.3243 143.4054)" fill="#FF69B4" font-family="'ArialMT'" font-size="51.8">exsec</text>
+		<text transform="matrix(0.2703 0 0 0.2703 199.3243 188.4054)" fill="#008B8B" font-family="'ArialMT'" font-size="51.8">sec</text>
+		<g id="g-crd" transform="rotate(56)">
+			<text transform="matrix(0.2703 0 0 0.2703 154.1363 -91.8783)" fill="#C0C0C0" font-family="'ArialMT'" font-size="51.8">crd</text>
+		</g>
+		<text transform="matrix(0.2703 0 0 0.2703 193.3245 105.4055)" font-family="'ArialMT'" font-size="51.8">arc</text>
+		<g id="g-tan" transform="rotate(25)">
+			<text transform="matrix(0.2703 0 0 0.2703 114.8289 -20.6191)" fill="#FF8C00" font-family="'ArialMT'" font-size="51.8">cot</text>
+			<text transform="matrix(0.2703 0 0 0.2703 224.8284 -20.6192)" fill="#D2B48C" font-family="'ArialMT'" font-size="51.8">tan</text>
+		</g>
+		<text transform="matrix(0.2703 0 0 0.2703 57.2436 166.6486)" fill="#4AACFF" font-family="'ArialMT'" font-size="51.8">vercos</text>
+		
+			<text transform="matrix(1.213421e-011 -0.2703 0.2703 1.213421e-011 39.5165 143.4054)" fill="#B200DF" font-family="'ArialMT'" font-size="51.8">covercos</text>
+		<text transform="matrix(0.2703 0 0 0.2703 235.5405 27.9593)" fill="#008B8B" font-family="'ArialMT'" font-size="36">sec=OE</text>
+		<text transform="matrix(0.2703 0 0 0.2703 235.5405 37.6891)" fill="#FFC0CB" font-family="'ArialMT'" font-size="36">csc=OF</text>
+		<text transform="matrix(0.2703 0 0 0.2703 235.5405 47.2296)" fill="#4AACFF" font-family="'ArialMT'" font-size="36">vercos=CK</text>
+		<text transform="matrix(0.2703 0 0 0.2703 235.5405 65.2297)" fill="#B200DF" font-family="'ArialMT'" font-size="36">covercos=GL</text>
+		<text transform="matrix(0.2703 0 0 0.2703 235.5405 56.4188)" fill="#00FFFF" font-family="'ArialMT'" font-size="36">coversin=GH</text>
+	</g>
+</g>
+</svg>

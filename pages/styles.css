@@ -15,7 +15,7 @@ strong {
 
 .math.math-inline {
   display: inline-block;
-  /* vertical-align: middle; */
+  vertical-align: middle;
 }
 
 .math.math-display {
