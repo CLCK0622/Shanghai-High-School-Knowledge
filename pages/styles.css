@@ -7,6 +7,12 @@ body {
     Segoe UI Symbol, Noto Color Emoji;
 }
 
+strong {
+  /* font-size:large; */
+  text-shadow: 1px 1px 1px rgba(175, 175, 175, 0.75);
+  font-weight: 900;
+}
+
 .math.math-inline {
   display: inline-block;
   /* vertical-align: middle; */
