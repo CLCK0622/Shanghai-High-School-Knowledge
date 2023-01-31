@@ -21,7 +21,8 @@ const config: DocsThemeConfig = {
   // },
   docsRepositoryBase: 'https://github.com/CLCK0622/Shanghai-High-School-Knowledge/tree/main',
   footer: {
-    text: '由 Kevin Zhong (aka CLCK) 和其他贡献者精心整理 | 自豪地使用 Nextra 生成网站',
+    // text: '由 Kevin Zhong (aka CLCK) 和其他贡献者精心整理 | 自豪地使用 Nextra 生成网站',
+    text: <div><p>由 Kevin Zhong (aka CLCK) 和其他贡献者精心整理 | 自豪地使用 <img src="/nextraIcon.svg" width={'5%'} style={{display: 'inline'}} /> 生成网站</p><br /><p><span>Powered by </span><img src='/vercelIcon.svg' width={'5%'} style={{display: 'inline'}} /></p></div>
   },
   main: (props) => {
     return <>
@@ -36,6 +37,7 @@ const config: DocsThemeConfig = {
   },
   sidebar: {
     defaultMenuCollapseLevel: 0,
+    // toggleButton: true, 
   },
   toc: {
     title: "目录", 
