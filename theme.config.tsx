@@ -4,7 +4,7 @@ import { useConfig } from "nextra-theme-docs"
 import { DocsThemeConfig } from "nextra-theme-docs"
 
 const config: DocsThemeConfig = {
-  logo: (<><span>上海高中课本知识整理</span></>),
+  logo: (<><img src="/favicon.svg" width="200px" /></>),
   head: () => {
     const { asPath } = useRouter()
     const { frontMatter, title } = useConfig()
