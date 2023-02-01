@@ -4,6 +4,8 @@
 
 本网站所记内容仅适用于上海地区的课标内容，并只包含了较主流的教材版本。
 
+![Alt](https://repobeats.axiom.co/api/embed/c12aadd264af6d5f99fbebdc363a178cc6071387.svg "Repobeats analytics image")
+
 ## 规范
 
 对于一般的中文文案排版，遵循 [sparanoid/chinese-copywriting-guidelines](https://github.com/sparanoid/chinese-copywriting-guidelines) 的方案。
