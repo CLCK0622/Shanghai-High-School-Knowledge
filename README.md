@@ -1,3 +1,5 @@
+![favicon-social](https://knowledge.clckblog.space/favicon-social.png)
+
 # [上海高中课本知识整理](https://knowledge.clckblog.space/)
 
 本网站旨在收集和整理以上海高中标准课本为大纲的各学科基础知识大全，为想要对知识有提纲挈领的了解或进行查漏补缺的人提供极为优秀的机会。
