@@ -23,3 +23,7 @@ strong {
   justify-content: center;
   align-items: center;
 }
+
+#icon {
+    margin-bottom: 4px;
+}
