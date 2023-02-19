@@ -9,6 +9,7 @@ const withNextra = nextra({
     remarkPlugins: [remarkMath],
     rehypePlugins: [rehypeMathjax],
   },
+  pageExtensions: ["js", "scss", "jsx"],
 });
 
 export default withNextra();
