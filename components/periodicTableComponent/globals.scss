@@ -50,9 +50,10 @@
   --color-segment-button-background-active: var(--color-background-active);
   --color-segment-button-background-selected: var(--color-background-selected);
 
-  @media (prefers-color-scheme: dark) {
-    & {
-      --color-body-text: #f1f5f9;
+}
+
+html.js-focus-visible.dark {
+    --color-body-text: #f1f5f9;
       --color-body-background: #111;
 
       --color-text-secondary: #aeb3bb;
@@ -71,8 +72,6 @@
       --color-border: #f1f5f91a;
 
       --color-shadow-large: 0 8px 24px #ffffff44;
-    }
-  }
 }
 
 body {
