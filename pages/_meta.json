@@ -1,24 +1,29 @@
 {
-  "index": {
-    "title": "首页", 
-    "theme": {"typesetting": "article"}
-  },
-  "--- 课本知识整理 ---": {
-    "type": "separator", 
-    "title": "课本知识整理"
-  }, 
-  "10A": "高一上学期/必修一", 
-  "10B": "高一下学期/必修二", 
-  "--- 高考专题 ---": {
-    "type": "separator", 
-    "title":"高考专题"
-  }, 
-  "books": "语文名著阅读", 
-  "triIdentities": "三角恒等式", 
-  "contact": {
-    "title": "联系我们 ↗",
-    "type": "page",
-    "href": "https://t.me/CLCK0622",
-    "newWindow": true
-  }
+    "index": {
+        "title": "首页"
+    },
+    "*": {
+        "theme": {
+            "typesetting": "article"
+        }
+    },
+    "--- 课本知识整理 ---": {
+        "type": "separator",
+        "title": "课本知识整理"
+    },
+    "10A": "高一上学期/必修一",
+    "10B": "高一下学期/必修二",
+    "--- 高考专题 ---": {
+        "type": "separator",
+        "title": "高考专题"
+    },
+    "books": "语文名著阅读",
+    "triIdentities": "三角恒等式",
+    "periodicTable": "化学元素周期表",
+    "contact": {
+        "title": "联系我们 ↗",
+        "type": "page",
+        "href": "https://t.me/CLCK0622",
+        "newWindow": true
+    }
 }

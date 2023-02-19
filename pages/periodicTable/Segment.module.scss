@@ -1,0 +1,35 @@
+.segment {
+  list-style: none;
+  display: flex;
+  gap: 2px;
+  padding: 2px;
+  margin: 0;
+  border: 1px solid var(--color-segment-border);
+  border-radius: 8px;
+}
+
+.segmentItem {
+}
+
+.segmentButton {
+  background-color: transparent;
+  padding: 4px 8px;
+  border: none;
+  border-radius: 6px;
+  display: block;
+  transition-duration: 0.15s;
+  transition-property: background-color;
+
+  &:hover,
+  &:focus-visible {
+    background-color: var(--color-segment-button-background-hover);
+  }
+
+  &.selected {
+    background-color: var(--color-segment-button-background-selected);
+  }
+
+  &:active {
+    background-color: var(--color-segment-button-background-active);
+  }
+}

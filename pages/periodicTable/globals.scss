@@ -1,0 +1,104 @@
+@use 'sass:color';
+// @import 'lxgw-wenkai-webfont/style.css';
+// @import 'normalize.css/normalize.css';
+
+:root {
+  --color-body-text: #0f172a;
+  --color-body-background: #fff;
+
+  --color-text-secondary: #6e7781;
+
+  --color-background-hover: #eee;
+  --color-background-active: #ccc;
+  --color-background-selected: #ddd;
+  --color-background-secondary: #eaeaea;
+
+  --color-accent: #00a1ff;
+  --color-accent-text: #1d8dff;
+  --color-accent-text-hover: #4fa7ff;
+  --color-accent-highlight-border: #00a1ff80;
+  --color-accent-highlight-background: #00a1ff40;
+
+  --color-border: #0f172a1a;
+
+  --color-shadow-large: 0 8px 24px #8c959f33;
+
+  --height-nav: 48px;
+  --color-nav-text: var(--color-text-secondary);
+  --color-nav-text-hover: var(--color-body-text);
+  --color-nav-text-selected: var(--color-body-text);
+  --color-nav-background: var(--color-body-background);
+  --color-nav-border: var(--color-border);
+  --color-nav-highlight-background: var(--color-accent-highlight-background);
+
+  --color-periodic-table-cell-text: var(--color-text-secondary);
+  --color-periodic-table-cell-border: var(--color-border);
+  --color-periodic-table-cell-background: var(--color-body-background);
+  --color-periodic-table-cell-border-active: var(
+    --color-accent-highlight-border
+  );
+  --color-periodic-table-cell-background-active: var(
+    --color-accent-highlight-background
+  );
+  --color-periodic-table-spacer-highlight-border: var(--color-border);
+  --color-periodic-table-spacer-highlight-background: var(
+    --color-background-secondary
+  );
+
+  --color-segment-border: var(--color-border);
+  --color-segment-button-background-hover: var(--color-background-hover);
+  --color-segment-button-background-active: var(--color-background-active);
+  --color-segment-button-background-selected: var(--color-background-selected);
+
+  @media (prefers-color-scheme: dark) {
+    & {
+      --color-body-text: #f1f5f9;
+      --color-body-background: #111;
+
+      --color-text-secondary: #aeb3bb;
+
+      --color-background-hover: #222;
+      --color-background-active: #444;
+      --color-background-selected: #333;
+      --color-background-secondary: #1c1c1c;
+
+      --color-accent: #007eff;
+      --color-accent-text: #4fa6ff;
+      --color-accent-text-hover: #83c1ff;
+      --color-accent-highlight-border: #007eff80;
+      --color-accent-highlight-background: #007eff66;
+
+      --color-border: #f1f5f91a;
+
+      --color-shadow-large: 0 8px 24px #000;
+    }
+  }
+}
+
+body {
+  color: var(--color-body-text);
+  background-color: var(--color-body-background);
+}
+
+*,
+*::before,
+*::after {
+  font-family: LXGW WenKai, system-ui, -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+}
+
+button {
+  color: var(--color-body-text);
+}
+
+// a {
+//   color: var(--color-accent-text);
+//   text-decoration: none;
+
+//   &:hover,
+//   &:focus-visible {
+//     color: var(--color-accent-text-hover);
+//     text-decoration: underline wavy;
+//   }
+// }

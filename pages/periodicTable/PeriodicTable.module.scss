@@ -1,0 +1,119 @@
+@use 'sass:math';
+$cellPadding: 2px 4px;
+
+.table {
+  display: grid;
+  grid-template-columns: repeat(18, 1fr);
+  gap: 2px;
+  overflow-x: none;
+}
+
+.cell {
+  padding: $cellPadding;
+  border: 1px solid var(--color-periodic-table-cell-border);
+//   background-color: var(--color-periodic-table-cell-background);
+  cursor: default;
+  transition-duration: 0.15s;
+  transition-timing-function: cubic-bezier(0, 0.5, 0, 1);
+  transition-property: transform, border, background-color, box-shadow;
+
+  &:hover,
+  &:focus-visible {
+    transform: scale(1.5);
+    box-shadow: var(--color-shadow-large);
+  }
+  &:active {
+    transform: scale(1.2);
+  }
+
+  & > * {
+    display: block;
+  }
+
+  &.active {
+    border: 1px solid var(--color-periodic-table-cell-border-active);
+    background-color: var(--color-periodic-table-cell-background-active);
+  }
+
+  .atomicNumber {
+    color: var(--color-periodic-table-cell-text);
+    text-align: left;
+    font-size: 12px;
+  }
+
+  .symbol,
+  .name {
+    font-size: 14px;
+    font-weight: bolder;
+    line-height: 1;
+    margin: 4px;
+  }
+
+  .atomicMass {
+    color: var(--color-periodic-table-cell-text);
+    font-size: 10px;
+  }
+}
+
+.spacer {
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: default;
+
+  &.highlight {
+    border: 1px solid var(--color-periodic-table-spacer-highlight-border);
+    background-color: var(--color-periodic-table-spacer-highlight-background);
+  }
+}
+
+.elementDisplay {
+  display: flex;
+  cursor: default;
+
+  .left {
+    .symbol {
+      width: 120px;
+      height: 120px;
+      font-size: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 2px solid var(--color-border-default);
+    }
+  }
+
+  .right {
+    margin-left: 12px;
+    padding: 0 12px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 6px;
+
+    .dataKey {
+      text-align: right;
+      color: var(--color-fg-muted);
+      font-weight: 600;
+    }
+
+    .value {
+    }
+  }
+}
+
+.controls {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+
+  .options {
+    width: max-content;
+    min-width: max-content;
+    margin-right: 16px;
+  }
+
+  .display {
+    margin-right: 16px;
+  }
+}

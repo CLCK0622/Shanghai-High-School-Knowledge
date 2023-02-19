@@ -5,6 +5,7 @@
     "start": "next start"
   },
   "dependencies": {
+    "js-cookie": "^3.0.1",
     "next": "^13.1.6",
     "nextra": "^2.2.14",
     "nextra-theme-docs": "^2.2.14",
@@ -15,6 +16,7 @@
     "remark-math": "^5.1.1",
     "remark-parse": "^10.0.1",
     "remark-rehype": "^10.1.0",
+    "sass": "^1.58.3",
     "sharp": "^0.31.3",
     "to-vfile": "^7.2.3",
     "unified": "^10.1.2"
