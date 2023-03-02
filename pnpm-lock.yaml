@@ -1,6 +1,7 @@
 lockfileVersion: 5.4
 
 specifiers:
+  '@giscus/react': ^2.2.8
   '@types/node': 18.11.10
   '@waline/client': ^2.14.7
   js-cookie: ^3.0.1
@@ -21,6 +22,7 @@ specifiers:
   unified: ^10.1.2
 
 dependencies:
+  '@giscus/react': 2.2.8_biqbaboplfbrettd7655fr4n2y
   js-cookie: 3.0.1
   next: 13.2.1_wiv434v7erz4aedd5whhdwmpv4
   nextra: 2.2.16_qgtcjgzkkjtbiyvnx7d32fl5vu
@@ -78,6 +80,17 @@ packages:
       to-fast-properties: 2.0.0
     dev: true
 
+  /@giscus/react/2.2.8_biqbaboplfbrettd7655fr4n2y:
+    resolution: {integrity: sha512-dPk3GMmsx5hHXXi8Xye7aen+lsZ/PR4I7AwTXKxKtAvxXsH5XAVB/bI6uWr4BrLEH3plZMzgOlVUIPOFJsHQCw==}
+    peerDependencies:
+      react: ^16 || ^17 || ^18
+      react-dom: ^16 || ^17 || ^18
+    dependencies:
+      giscus: 1.2.8
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
+    dev: false
+
   /@headlessui/react/1.7.12_biqbaboplfbrettd7655fr4n2y:
     resolution: {integrity: sha512-FhSx5V+Qp0GvbTpaxyS+ymGDDNntCacClWsk/d8Upbr19g3AsPbjfPk4+m2CgJGcuCB5Dz7LpUIOAbvQTyjL2g==}
     engines: {node: '>=10'}
@@ -88,6 +101,16 @@ packages:
       client-only: 0.0.1
       react: 18.2.0
       react-dom: 18.2.0_react@18.2.0
+    dev: false
+
+  /@lit-labs/ssr-dom-shim/1.0.0:
+    resolution: {integrity: sha512-ic93MBXfApIFTrup4a70M/+ddD8xdt2zxxj9sRwHQzhS9ag/syqkD8JPdTXsc1gUy2K8TTirhlCqyTEM/sifNw==}
+    dev: false
+
+  /@lit/reactive-element/1.6.1:
+    resolution: {integrity: sha512-va15kYZr7KZNNPZdxONGQzpUr+4sxVu7V/VG7a8mRfPPXUyhEYj5RzXCQmGrlP3tAh0L3HHm5AjBMFYRqlM9SA==}
+    dependencies:
+      '@lit-labs/ssr-dom-shim': 1.0.0
     dev: false
 
   /@mdx-js/mdx/2.3.0:
@@ -452,6 +475,10 @@ packages:
 
   /@types/scheduler/0.16.2:
     resolution: {integrity: sha512-hppQEBDmlwhFAXKJX2KnWLYu5yMfi91yazPb2l+lbJiwW+wdo1gNeRA+3RgNSO39WYX2euey41KEwnqesU2Jew==}
+    dev: false
+
+  /@types/trusted-types/2.0.3:
+    resolution: {integrity: sha512-NfQ4gyz38SL8sDNrSixxU2Os1a5xcdFxipAFxYEuLUlvU2uDwS4NUpsImcf1//SlWItCVMMLiylsxbmNMToV/g==}
     dev: false
 
   /@types/unist/2.0.6:
@@ -1129,6 +1156,12 @@ packages:
     engines: {node: '>=4'}
     dev: false
 
+  /giscus/1.2.8:
+    resolution: {integrity: sha512-pufrgQYt1W+4ztiWp/PilLPN8NdyKvpbQ8jNqbAa1g84t6qqyevXHfkOYCi4x4d+y191vJAUc6seL1Dq74yUeA==}
+    dependencies:
+      lit: 2.6.1
+    dev: false
+
   /git-up/7.0.0:
     resolution: {integrity: sha512-ONdIrbBCFusq1Oy0sC71F5azx8bVkvtZtMJAsv+a6lz5YAmbNnLD6HAB4gptHZVLPR8S2/kVN6Gab7lryq5+lQ==}
     dependencies:
@@ -1572,6 +1605,27 @@ packages:
     dependencies:
       prelude-ls: 1.1.2
       type-check: 0.3.2
+    dev: false
+
+  /lit-element/3.2.2:
+    resolution: {integrity: sha512-6ZgxBR9KNroqKb6+htkyBwD90XGRiqKDHVrW/Eh0EZ+l+iC+u+v+w3/BA5NGi4nizAVHGYvQBHUDuSmLjPp7NQ==}
+    dependencies:
+      '@lit/reactive-element': 1.6.1
+      lit-html: 2.6.1
+    dev: false
+
+  /lit-html/2.6.1:
+    resolution: {integrity: sha512-Z3iw+E+3KKFn9t2YKNjsXNEu/LRLI98mtH/C6lnFg7kvaqPIzPn124Yd4eT/43lyqrejpc5Wb6BHq3fdv4S8Rw==}
+    dependencies:
+      '@types/trusted-types': 2.0.3
+    dev: false
+
+  /lit/2.6.1:
+    resolution: {integrity: sha512-DT87LD64f8acR7uVp7kZfhLRrHkfC/N4BVzAtnw9Yg8087mbBJ//qedwdwX0kzDbxgPccWRW6mFwGbRQIxy0pw==}
+    dependencies:
+      '@lit/reactive-element': 1.6.1
+      lit-element: 3.2.2
+      lit-html: 2.6.1
     dev: false
 
   /lodash.get/4.4.2:
