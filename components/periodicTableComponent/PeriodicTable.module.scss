@@ -4,13 +4,14 @@ $cellPadding: 2px 4px;
 .table {
   display: grid;
   grid-template-columns: repeat(18, 1fr);
-  gap: 2px;
-  overflow-x: none;
+  gap: 5px;
+  overflow-x: auto;
+  overflow-y: hidden;
 }
 
 .cell {
   padding: $cellPadding;
-  border: 1px solid var(--color-periodic-table-cell-border);
+  border: 2px solid var(--color-periodic-table-cell-border);
 //   background-color: var(--color-periodic-table-cell-background);
   cursor: default;
   transition-duration: 0.15s;
@@ -23,7 +24,7 @@ $cellPadding: 2px 4px;
     box-shadow: var(--color-shadow-large);
   }
   &:active {
-    transform: scale(1.2);
+    transform: scale(1.25);
   }
 
   & > * {
@@ -31,7 +32,7 @@ $cellPadding: 2px 4px;
   }
 
   &.active {
-    border: 1px solid var(--color-periodic-table-cell-border-active);
+    border: 2px solid var(--color-periodic-table-cell-border-active);
     background-color: var(--color-periodic-table-cell-background-active);
   }
 

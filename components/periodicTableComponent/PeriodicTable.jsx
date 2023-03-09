@@ -6,9 +6,10 @@ import useCookie from './utilities/useCookie'
 
 function generateTable(symbol, selectedElement, setSelectedElement) {
   var table = [
-    [1, 'spacer', 2],
+    [<Spacer label="57-71" highlight key="l0" />, 'spacer', <Spacer label="57-71" highlight key="l0" />], 
+    [1, <Spacer label="57-71" highlight />, 'spacer', 2],
     [[3, 4], 'spacer', [5, 10]],
-    [[11, 12], 'spacer', [13, 18]],
+    [[11, 12], <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, <Spacer label="57-71" highlight key="l0" />, [13, 18]],
     [[19, 36]],
     [[37, 54]],
     [[55, 56], <Spacer label="57-71" highlight key="l0" />, [72, 86]],
