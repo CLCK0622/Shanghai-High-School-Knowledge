@@ -6,6 +6,7 @@
   },
   "dependencies": {
     "@giscus/react": "^2.2.8",
+    "all": "^0.0.0",
     "js-cookie": "^3.0.1",
     "next": "^13.1.6",
     "nextra": "^2.2.14",
