@@ -1,0 +1,148 @@
+# 初高中衔接
+
+一些高中会用到的初中数学知识.
+
+## 乘法公式
+
+$a^3 + b^3 = (a + b) (a^2 - ab + b^2)$.
+
+$a^3 - b^3 = (a - b) (a^2 + ab + b^2)$.
+
+$(a + b)^3 = a^3 + 3a^2b + 3ab^2 + b^3$.
+
+$(a - b)^3 = a^3 - 3a^2b + 3ab^2 - b^3$.
+
+$(a + b + c)^2 = a^2 + b^2 + c^2 + 2 (ab + bc + ac)$.
+
+$a^3 + b^3 + c^3 - 3abc = (a + b + c) (a^2 + b^2 + c^2 - ab - bc - ac)$.
+
+### 记忆方法
+
+立方差和立方和公式可以这样记忆：当 $a = - b$ 或 $a = b$ 时，最后结果为 $0$，所以会先有一个 $(a \pm b)$. 后面的部分和完全平方公式很像，不过 $ab$ 上的系数，如果前面是正就是 $-1$，前面是负就是 $1$.
+
+对于所有 $(a \pm b)^n$，首先把各项按照 $a$ 的降次 $b$ 的升次排列，系数按照杨辉三角填写即可. $(a + b)^n$ 全部都是正号，$(a - b)^n$，正负号交替出现.
+
+$$
+\begin{array}{c}
+    1 \\
+    1 \quad 1 \\
+    1 \quad 2 \quad 1 \\
+    1 \quad 3 \quad 3 \quad 1 \\
+    1 \quad 4 \quad 6 \quad 4 \quad 1 \\
+    1 \quad 5 \quad 10 \quad 10 \quad 5 \quad 1 \\
+    1 \quad 6 \quad 15 \quad 20 \quad 15 \quad 6 \quad 1 \\
+    1 \quad 7 \quad 21 \quad 35 \quad 35 \quad 21 \quad 7 \quad 1 \\
+    1 \quad 8 \quad 28 \quad 56 \quad 70 \quad 56 \quad 28 \quad 8 \quad 1 \\
+\end{array}
+$$
+
+杨辉三角，每个数字是它肩上两个数字之和. 第一行 $n = 0$，第二行 $n = 1$，第三行 $n = 2$，第四行 $n = 3$，以此类推，如 $(a - b)^4 = a^4 - 4a^3b + 6a^2b^2 - 4ab^3 + b^4$.
+
+## 二次函数
+
+一般式：$y = a^2 + bx + c (a \neq 0)$.
+
+$a$ 控制函数图像开口方向：$a < 0$，函数图像开口向下；$a > 0$，函数图像开口向上.
+
+$b$ 控制函数图像对称轴 $x = -\frac{b}{2a}$ 和 $\Delta = b^2 - 4ac$.
+
+$c$ 控制函数图像与 $y$ 轴的交点.
+
+顶点式：$y = a (x + \frac{b}{2a})^2 + \frac{ 4ac - b^2 }{4a}$，$(-\frac{b}{2a} , \frac{ 4ac - b^2 }{4a})$ 为顶点坐标.
+
+交点式：$y = a (x - x_1) (x - x_2)$，$x_1$ $x_2$ 为 $y = 0$ 时方程的解，也是函数与 $x$ 轴的交点. 一般式提出 $a$，再运用韦达定理十字相乘即可推导.
+
+### 韦达定理
+
+一元二次方程的两个解 $x_1$ 和 $x_2$ 满足的关系：
+
+$$
+\begin{array}{l}
+    x_1 + x_2 = -\frac{b}{a} , \\
+    x_1 x_2 = \frac{c}{a}.
+\end{array}
+$$
+
+韦达定理的应用：
+
+$x_{1}^2 + x_{2}^2 = (x_1 + x_2)^2 - 2x_1 x_2 = \frac{b^2}{a^2} - \frac{2c}{a}$.
+
+$|x_1 - x_2| = \sqrt{ (x_1- x_2)^2 } = \sqrt{ (x_1 + x_2)^2 - 4x_1 x_2 } = \sqrt{ \frac{b^2}{a^2} - \frac{4c}{a} } = \sqrt{ \frac{ b^2 - 4ac }{a^2} } = \dfrac{ \sqrt{\Delta} }{ |a| }$.
+
+## 绝对值
+
+代数意义：
+
+$$
+|a| = \begin{cases}
+    a \quad & a > 0 , \\
+    0 \quad & a = 0 , \\
+    -a \quad & a < 0 .
+\end{cases}
+$$
+
+几何意义：
+
+$|a|$ 表示数轴上 $a$ 到 $0$ 的距离.
+
+$|a - b|$ 表示数轴上 $a$ 到 $b$ 的距离.
+
+遇到绝对值就分类，通过分类去掉绝对值.
+
+## 等比的性质
+
+若 $\frac{a}{b} = \frac{c}{d} = k, 则 \frac{a \pm c}{b \pm d} = k$.
+
+证明：$\because \frac{a}{b} = \frac{c}{d} = k,$
+
+$\therefore a = bk , c = dk$.
+
+代入 $\frac{ a + c }{ b + d }$ 得：$\frac{ bk + dk }{ b + d } = k$.
+
+同理可证 $\frac{ a - c }{ b - d } = k$.
+
+推广：$\frac{a}{b} = \frac{c}{d} = \cdots = \frac{m}{n} = \frac{ a + c + \cdots + m }{ b + d + \cdots + n } = \frac{ a \pm c \pm \cdots \pm m }{ b \pm d \pm \cdots \pm n }$.
+
+## 合分比定理
+
+若 $\frac{a}{b} = \frac{c}{d}$，则 $\frac{ a \pm b }{b} = \frac{ c \pm d }{b}$.
+
+不过只是同加或同减了个 $1$ 罢了.
+
+## 因式分解
+
+- 公式法：使用乘法公式
+- 分组分解
+- 十字相乘
+- 试根法
+
+试根法：对于三次方程，首先试出方程的一个根，一般是 $\pm 1$，$\pm 2$ 等.以 $x^3 - 2x^2 - 3x + 4 = 0$ 为例，首先试出有一个根是 $x = 1$，所以因式分解必有一个 $(x - 1)$.
+
+然后使用长除法：$(x^3 - 2x^2 - 3x + 4) \div (x - 1)$，列竖式，从最高次项开始除，得到答案为 $x^2 - x - 4$，所以 $(x - 1)(x^2 - x - 4) = 0$.
+
+还有一种方法是使用待定系数法:
+
+设 $(x - 1) (ax^2 + bx + c) = 0$，
+
+拆开括号并合并同类项得到 $ax^3 + (b - a) x^2 + (c - b) x - c = 0$，
+
+解得 $a = 1 , b = -1 , c = -4$.
+
+代入 $(x - 1) (ax^2 + bx + c) = 0$ 得：
+
+$(x - 1) (x^2 - x -4) = 0$.
+
+## 二重根式化简
+
+如果要化简的式子形如 $\sqrt{ m \pm 2 \sqrt{n} }$，因为 $(\sqrt{a} \pm \sqrt{b})^2 = a + b \pm 2 \sqrt{ab}$，所以可以把 $m$ 看作是 $a+b$，而 $n$ 就是 $ab$：
+
+$$
+\left\{\begin{array}{l}
+    a + b = m , \\
+    ab = n .
+\end {array}\right.
+$$
+
+解出两个满足条件的值，把大的那个数给 $a$，小的数给 $b$，所以原式等于 $\sqrt{ (\sqrt{a} \pm \sqrt{b})^2 } = | \sqrt{a} \pm \sqrt{b} | = \sqrt{a} \pm \sqrt{b}$.
+
+因为 $\sqrt{a} > \sqrt{b}$，所以可以直接去绝对值.
