@@ -1,0 +1,58 @@
+# 对数
+
+## 对数与指数
+
+$\log_{a} N$，$a$ 叫底数，$N$ 叫真数，读作 $a$ 为底 $N$ 的对数.
+
+$x = \log_{a} N \Leftrightarrow a^x = N \, (a > 0, \, a \neq 1, \, N > 0)$.
+
+常用对数 $\lg N$ 即 $\log_{10} N$；自然对数 $\ln N$ 即 $\log_{e} N$（其中 $e = 2.71828 \ldots$）.
+
+$\log_{a} 1 = 0$，因为 $a^0 = 1$.
+
+$\log_{a} a = 1$，因为 $a^1 = a$.
+
+$a^{ \log_{a} N } = N$，由 $x = \log_{a} N \Leftrightarrow a^x = N$，把 $x = \log_{a} N$ 代入 $a^x = N$ 即可得出.
+
+## 对数运算性质
+
+$a > 0, \, a \neq 1, \, M > 0, \, N > 0$ 时：
+
+- $\log_{a} (MN) = \log_{a} M + \log_{a} N$.
+- $\log_{a} \frac{M}{N} = \log_{a} M - log_{a} N$.
+- $\log_{a} M^n = n \log_{a} M \, (n \in \mathbb{R})$.
+
+证明：
+
+设 $M = a^m, \, N = a^n$.
+
+$\because a^m a^n = a^{m+n}$，$\therefore MN = a^{m+n}$.
+
+$\therefore \log_{a} (MN) = m + n = \log_{a} M + \log_{a} N$.
+
+同理可证 $\log_{a} \frac{M}{N} = \log_{a} M - log_{a} N$.
+
+前两条就证出来了，下面是第三条的证明：
+
+设 $\log_{a} M = x$，则 $n \log_{a} M = nx$.
+
+由 $\log_{a} M = x$ 得，$a^{x} = M$，
+
+$\therefore a^{nx} = M^{n}$，
+
+$\therefore \log_{a} M^{n} = nx = n \log_{a} M$.
+
+## 公式总结
+
+$a > 0, a \neq 1, M > 0, N > 0$ 时：
+
+- $\log_{a} (MN) = \log_{a} M + \log_{a} N$.
+- $\log_{a} \frac{M}{N} = \log_{a} M - log_{a} N$.
+- $\log_{a} M^n = n \log_{a} M, (n \in \mathbb{R})$.
+
+$a > 0$ 且 $a \neq 1$，$b > 0$，$c > 0$ 且 $c \neq 0$ 时：
+
+- $\log_{a} b = \dfrac{ \log_{c} a }{ \log_{c} b }$.
+- $\log_{a} b \cdot \log_{b} a = 1$.
+- $\log_{a} b = \log_{ a^{n} } b^{n}$.
+- $\log_{ a^{n} } b^{m} = \dfrac{m}{n} \log_{a} b$.
